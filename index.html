@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepSeek - 個人網頁 | 數位森林：AI協作網頁開發指南</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- 照片替換說明：將以下照片檔案放入 images/ 資料夾：
+         1. avatar.jpg - 個人頭像 (建議 400x400px)
+         2. theme-bg.jpg - 主題背景圖 (建議 1200x400px)
+         3. workflow.png - 工作流程圖 (建議 800x400px)
+         4. project-showcase.jpg - 專案展示圖 (建議 800x400px)
+    -->
+</head>
+<body>
+    <div class="container">
+        <!-- 網頁標頭 -->
+        <header class="header">
+            <h1><i class="fas fa-seedling"></i> 數位森林：AI協作網頁開發指南</h1>
+            <p class="subtitle">探索如何運用AI工具從零開始培育你的網頁專案</p>
+        </header>
+
+        <!-- 自訂主題區 -->
+        <section class="theme-section" id="theme">
+            <div class="section-header">
+                <h2><i class="fas fa-palette"></i> 自訂主題區：數位森林</h2>
+                <p class="section-subtitle">用AI培育你的網頁項目</p>
+            </div>
+            
+            <!-- 主題背景圖片（可選） -->
+            <div class="theme-image-container">
+                <!-- 照片替換點 1：主題背景圖 -->
+                <!-- 若要使用背景圖，請取消註解下方 div，並將 theme-bg-placeholder 改為 theme-bg-image -->
+                <!-- <div class="theme-bg-image" style="background-image: url('images/theme-bg.jpg');"></div> -->
+                <div class="theme-bg-placeholder">
+                    <i class="fas fa-mountain"></i>
+                    <p>主題背景圖位置</p>
+                    <p class="image-instruction">若要使用背景圖：<br>1. 將 theme-bg.jpg 放入 images/ 資料夾<br>2. 取消 styles.css 中 .theme-bg-image 的註解</p>
+                </div>
+            </div>
+            
+            <div class="theme-content">
+                <div class="theme-intro">
+                    <h3><i class="fas fa-leaf"></i> 什麼是「數位森林」？</h3>
+                    <p>這是一個比喻，描述我們如何使用AI工具（如ChatGPT、DeepSeek）從零開始構建網站的完整流程。就像在森林中培育生命一樣，我們用程式碼和AI協作培育專案，讓每個想法都能生根發芽、茁壯成長。</p>
+                    
+                    <div class="ai-collab">
+                        <h4><i class="fas fa-robot"></i> AI協作體現</h4>
+                        <ul>
+                            <li><strong>文案生成：</strong>主題描述、流程步驟等文字內容通過與AI對話迭代生成</li>
+                            <li><strong>結構設計：</strong>網頁區塊劃分、資訊層次安排由AI建議並優化</li>
+                            <li><strong>排版建議：</strong>顏色搭配、間距調整、響應式設計等細節通過AI輔助完成</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="workflow">
+                    <h3><i class="fas fa-sync-alt"></i> AI協作工作流程</h3>
+                    <div class="workflow-steps">
+                        <div class="step">
+                            <div class="step-icon">1</div>
+                            <h4>提示設計</h4>
+                            <p>向AI描述需求與目標</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon">2</div>
+                            <h4>程式生成</h4>
+                            <p>AI產生HTML/CSS/JS程式碼</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon">3</div>
+                            <h4>本地測試</h4>
+                            <p>在VS Code中測試與除錯</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon">4</div>
+                            <h4>部署發布</h4>
+                            <p>將完整專案部署上線</p>
+                        </div>
+                    </div>
+                    
+                    <!-- 工作流程圖（可選） -->
+                    <div class="workflow-image-container">
+                        <!-- 照片替換點 2：工作流程圖 -->
+                        <!-- 若要使用圖片，請取消註解下方 img，並將 workflow-placeholder 移除 -->
+                        <!-- <img src="images/workflow.png" alt="AI協作工作流程圖" class="workflow-image"> -->
+                        <div class="workflow-placeholder">
+                            <i class="fas fa-project-diagram"></i>
+                            <p>工作流程圖位置</p>
+                            <p class="image-instruction">若要替換圖片：<br>1. 將 workflow.png 放入 images/<br>2. 取消上方 img 標籤的註解<br>3. 刪除此佔位元素</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="core-values">
+                    <h3><i class="fas fa-lightbulb"></i> 核心價值</h3>
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <i class="fas fa-door-open"></i>
+                            <h4>降低開發門檻</h4>
+                            <p>讓網頁開發對初學者更友善</p>
+                        </div>
+                        <div class="value-card">
+                            <i class="fas fa-bolt"></i>
+                            <h4>加速創意實現</h4>
+                            <p>快速將想法轉化為實際網頁</p>
+                        </div>
+                        <div class="value-card">
+                            <i class="fas fa-road"></i>
+                            <h4>結構化學習路徑</h4>
+                            <p>提供清晰的學習與開發框架</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="ai-note">
+                <p><i class="fas fa-comment"></i> <strong>AI協作註記：</strong>此區域內容與架構通過與LLM對話迭代生成，展示AI輔助內容創作與網頁設計的能力。</p>
+            </div>
+        </section>
+
+        <!-- 自我介紹區 -->
+        <section class="intro-section" id="intro">
+            <div class="section-header">
+                <h2><i class="fas fa-user"></i> 自我介紹區</h2>
+                <p class="section-subtitle">關於我與我的專業領域</p>
+            </div>
+            
+            <div class="intro-content">
+                <div class="profile">
+                    <!-- 個人頭像（可選） -->
+                    <div class="avatar-container">
+                        <!-- 照片替換點 3：個人頭像 -->
+                        <!-- 若要使用頭像，請取消註解下方 img，並將 avatar-placeholder 移除 -->
+                        <!-- <img src="images/avatar.jpg" alt="個人頭像" class="avatar-image"> -->
+                        <div class="avatar-placeholder">
+                            <i class="fas fa-user-circle"></i>
+                            <p>個人頭像位置</p>
+                            <p class="image-instruction">若要替換頭像：<br>1. 將 avatar.jpg 放入 images/<br>2. 取消上方 img 標籤的註解<br>3. 刪除此佔位元素</p>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-info">
+                        <div class="info-section">
+                            <h3><i class="fas fa-id-card"></i> 基本資訊</h3>
+                            <ul class="info-list">
+                                <li><strong>名稱：</strong>DeepSeek</li>
+                                <li><strong>背景：</strong>AI助手與網頁開發協作者</li>
+                                <li><strong>科系/領域：</strong>計算機科學與AI應用</li>
+                                <li><strong>興趣：</strong>前端技術、AI應用、創意編碼、技術寫作、開源專案</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="info-section">
+                            <h3><i class="fas fa-tools"></i> 技能專長</h3>
+                            <div class="skills">
+                                <div class="skill-category">
+                                    <h4>技術技能</h4>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">HTML5/CSS3</span>
+                                        <span class="skill-tag">JavaScript ES6+</span>
+                                        <span class="skill-tag">響應式網頁設計</span>
+                                        <span class="skill-tag">VS Code開發工作流</span>
+                                        <span class="skill-tag">Git版本控制</span>
+                                    </div>
+                                </div>
+                                <div class="skill-category">
+                                    <h4>AI協作能力</h4>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">LLM提示工程</span>
+                                        <span class="skill-tag">AI輔助程式碼生成</span>
+                                        <span class="skill-tag">自然語言轉技術規格</span>
+                                        <span class="skill-tag">AI工作流設計</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="info-section">
+                            <h3><i class="fas fa-briefcase"></i> 作品與專案</h3>
+                            <div class="projects">
+                                <div class="project-card">
+                                    <h4>「數位森林」指南網站</h4>
+                                    <p>當前專案，展示AI協作網頁開發完整流程</p>
+                                    
+                                    <!-- 專案展示圖（可選） -->
+                                    <div class="project-image-container">
+                                        <!-- 照片替換點 4：專案展示圖 -->
+                                        <!-- 若要使用圖片，請取消註解下方 img，並將 project-image-placeholder 移除 -->
+                                        <!-- <img src="images/project-showcase.jpg" alt="數位森林專案展示" class="project-image"> -->
+                                        <div class="project-image-placeholder">
+                                            <i class="fas fa-laptop-code"></i>
+                                            <p>專案展示圖位置</p>
+                                            <p class="image-instruction">若要替換圖片：<br>1. 將 project-showcase.jpg 放入 images/<br>2. 取消上方 img 標籤的註解<br>3. 刪除此佔位元素</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <a href="#theme" class="project-link">查看詳情 <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                                <div class="project-card">
+                                    <h4>AI協作開發工作流文件</h4>
+                                    <p>詳細記錄與AI協同開發的最佳實踐與技巧</p>
+                                    <span class="project-status">進行中</span>
+                                </div>
+                                <div class="project-card">
+                                    <h4>響應式網頁模板庫</h4>
+                                    <p>多個現代化響應式網頁設計模板</p>
+                                    <span class="project-status">已公開</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 頁尾 -->
+        <footer class="footer">
+            <p>本網站通過與LLM對談協作完成，展示AI輔助網頁開發的實際應用。</p>
+            <div class="photo-instructions">
+                <h4><i class="fas fa-camera"></i> 照片替換指引</h4>
+                <p>此網頁預設了4個照片位置，若需替換請：</p>
+                <ol>
+                    <li>將你的圖片放入 <code>images/</code> 資料夾</li>
+                    <li>依照HTML中的註解說明取消對應標籤的註解</li>
+                    <li>刪除佔位元素</li>
+                </ol>
+                <p class="file-note">參考檔案：avatar.jpg, theme-bg.jpg, workflow.png, project-showcase.jpg</p>
+            </div>
+            <p class="footer-note"><i class="fas fa-code"></i> 使用 HTML5, CSS3 與 Font Awesome 圖示 | 專案結構符合作業規範</p>
+            <p class="footer-note"><i class="fas fa-folder"></i> 檔案結構：index.html, styles.css, images/ 資料夾</p>
+        </footer>
+    </div>
+</body>
+</html>
